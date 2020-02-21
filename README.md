@@ -1,5 +1,5 @@
 # martify-online-shopping
-Online shopping website
+### Online shopping website
 
 Used PHP and MySQL for reading from and writing to/modifying, deleting from database. 
 Used PHP for maintaining sessions and destroying sessions for login and logout customers and retailers and for maintaining carts.
