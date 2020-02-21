@@ -1,0 +1,81 @@
+	.tot{
+		text-align: center;
+
+	}
+  .tot a{
+    font-size: 15px;
+    margin-left: 2vw;
+    margin-top: -0.2vw;
+    bottom: 1.8vw;
+    position: absolute;
+    font-size: 2vw;
+
+  }
+  a{
+    font-size: 1vw;
+  }
+body{
+   color: rgba(154, 150, 150, 1);
+   font-size: 1.2vw;
+   font-family: Calibri;
+    background: black;
+
+}
+#back{
+  background: transparent;
+  border: none;
+}
+ a:hover{
+    color: white;
+    text-decoration: none;
+  }
+#back img{
+  width: 5vw;
+  height: 5vw;
+}
+footer{
+  position: absolute;
+  
+   bottom: 1vw;
+}
+p{
+  position:absolute;
+  bottom: 0;
+  left: 35%;
+  font-size: 2vw;
+
+}
+.tot a{
+  bottom: 0;
+  color:  #F79C0E;
+           
+}
+table a{
+	color:  #F79C0E;
+           
+}
+
+    .name{
+          text-align: center;
+          font-size: 2vw;
+          text-transform: uppercase;
+          font-family: Poor Richard;
+          margin-top: 2vw;
+          color: #F79C0E;
+        }
+        .name a{
+         
+          font-size: 1vw;
+          color: rgba(154, 150, 150, 1);
+        }
+        .name:hover{
+          color: rgba(154, 150, 150, 1);
+        }
+	.log{
+		text-align: center;
+		margin-top: 20%;
+    
+	}
+	.log a{
+		color:  #F79C0E;
+	}

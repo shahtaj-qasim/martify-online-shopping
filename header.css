@@ -1,0 +1,143 @@
+body{
+			background: black;
+			color: white;
+			color: rgba(154, 150, 150, 1);
+			font-family: Poor Richard;
+
+		}
+		@media(max-width: 1500em){
+			ul li {
+			display: inline;
+			margin-left: 7.5em;
+			padding-top: -2em;
+			width: 100%;
+			
+		}
+	}
+		a{
+			text-decoration: none;
+		   color:rgba(154, 150, 150, 1); 
+		}
+		a:hover{
+			color: white;
+		}
+		header{
+		font-size: 1em;
+		font-family: Courier new;
+		letter-spacing: 2px;
+		background: black;
+		z-index: 100;
+		margin-top: -1em;
+		width: 100%;
+	    }
+
+		ul img{
+			width: 2em;
+			height: 2em;
+			margin-top: 1em;
+			margin-left: 1.5em;
+		}
+		.product{
+
+			padding-top: 100px;
+		}
+	
+		#img{
+			padding-top: 20px;
+			height:400px;
+			width: 80%;
+			padding-left: 100px;
+			position:center;
+		}
+		.left{
+			height: 50px;
+			width: 50px;
+			position: absolute;
+			top: 300px;
+			left: 0px;
+		}
+		.right{
+			height: 50px;
+			width: 50px;
+			position: absolute;
+			top: 300px;
+			right: 0px;
+		}
+		.scripting{
+			height: 40em;
+		}
+
+		.col3 {
+	    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+	    -moz-column-count: 3; /* Firefox */
+	    column-count: 3;
+	    margin-left: 7em;
+	    font-family: Poor Richard;
+	    letter-spacing: 2px;
+    }
+	.col3 h2,.col3 p{
+		width: 12em;
+				
+	}
+	.col3 p{
+		font-size: 1.5vw;
+	}
+	#logo img{
+		width: 10em;
+		height: 10em;
+		margin-top: -3em;
+		float: left;
+		position: absolute;
+		margin-left: -8em;
+	}
+	.col3 img{
+		width: 4em;
+		height: 4em;
+		margin-bottom: 1em;
+		margin-left: 3.5em;
+
+	}
+	.coll ul li{
+		display: inline;	
+
+	}
+	.men img{
+		width: 49vw;
+		float: right;
+		margin-top: -49.9vw;
+		height: 31vw;	
+	}
+	.women img{
+		width: 49vw;
+		height: 31vw;
+		margin-top: 2vw;
+	}
+	.women img:hover{
+		opacity: 0.3;
+	}
+	.men img:hover{
+		opacity: 0.3;
+	}
+	.women .text{
+		position:relative;
+	bottom:20vw;
+	margin-left: 6vw;
+	visibility:hidden;
+	font-size: 6vw;
+	color: #F79C0E;
+	}
+	.women:hover .text{
+		visibility:visible;
+	}
+	.men .text1{
+		position:relative;
+	bottom:40vw;
+	float: right;
+	margin-right: 8.6vw;
+	visibility:hidden;
+	font-size: 6vw;
+	color: #F79C0E;
+	}
+	.men:hover .text1{
+		visibility:visible;
+	}

@@ -1,0 +1,315 @@
+body{
+            background: black;
+            color: rgba(154, 150, 150, 1);
+            font-family: Calibri;
+
+        }
+.fly-in-text{
+      list-style: none;
+      position: absolute;
+      left: 25vw;
+      top: 3vw;
+      transform: translateX(-92%) translateY(30%) ;
+      
+      font-size: 1.5vw;
+
+    }
+    .fly-in-text li{
+      display: inline-block;
+      color: white;
+
+      margin-right: 50px;
+      font-size: 3em;
+       transition: all 2.5s ease;
+      font-family: Poor Richard;
+      color: rgba(154, 150, 150, 1);
+    }
+    .fly-in-text li:last-child{
+      margin-right: 0;
+    }
+    .fly-in-text.hidden li{
+      opacity: 0;
+    }
+        img{
+            width: 17vw;
+            height: 20vw;
+            
+        }
+        .main1 li{
+            display: inline-block;
+            margin-left: 9vw;
+            margin-top: 10vw;
+       
+            font-size: 1.5vw;
+            
+        }
+        ul img{
+      width: 2vw;
+      height: 2vw;
+      margin-top: 1vw;
+           
+      
+    }
+        #logo img{
+    width: 10em;
+    height: 10em;
+    margin-top: -3em;
+    
+    position: absolute;
+  
+  }
+        .main1 h2:hover{
+            color:#F79C0E;
+        }
+        ul li {
+      display: inline;
+      margin-left: 7vw;
+      padding-top: -2vw;
+
+    }
+      
+           @media screen and (max-width:900px){
+            header ul li{
+                float: none;
+                
+            }
+            select{
+               
+                margin-bottom: 4vw;
+            }
+               header{
+                   margin-top: 3vw;
+               }    
+               #head li select{
+                font-size: 10vw;
+            }
+            
+      ul li {
+      display: inline;
+      margin-left: 0.2vw;
+      
+
+    }
+            #logo{
+                margin-left: 11vw;
+               
+               
+            }
+               #logo img{
+                   width: 20vw;
+               }
+            .col3 h2{
+               font-size: 2vw;
+               
+            }
+           #head select{
+                font-size: 2vw;
+               
+            }
+               .fly-in-text li{
+                   margin-top: 4vw;
+               }
+           
+      
+        
+            
+}
+        select{
+            background: black;
+            color: rgba(154, 150, 150, 1);
+            border: none;
+            font-family: Poor Richard;
+            font-size: 1vw;
+            letter-spacing: 0.1vw;
+        }
+        .name{
+          text-align: center;
+          font-size: 4vw;
+          text-transform: uppercase;
+          font-family: Poor Richard;
+          margin-top: 8vw;
+        }
+        .name a{
+         
+          font-size: 1vw;
+        }
+        .name:hover{
+          color: #F79C0E;
+        }
+         .but input{
+      width: 7vw;
+      height: 5vw;
+      border-radius:10px;
+      border-style: none;
+      background: black;
+      border:none;
+      color: white;
+      font-size: 15px;
+      font-family:Calibri;
+     
+      letter-spacing: 3px;
+    
+      
+
+    }
+      button{
+      width: 7vw;
+      height: 5vw;
+      border-radius:10px;
+      border-style: none;
+      background: black;
+      border:none;
+      color: white;
+      font-size: 15px;
+      font-family:Calibri;
+     
+      letter-spacing: 3px;
+    
+      
+
+    }
+     input:hover{
+            border-color:  #F79C0E;
+            
+           
+        }
+        button:hover{
+            border-color:  #F79C0E;
+            color:  #F79C0E;
+           
+        }
+  .pop-outer{
+    background-color:rgba(100, 100, 100, 0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    
+  }
+  .pop-inner{
+    background-color: #787276;
+    width: 580px;
+    height: 380px;
+    padding: 25px;
+    margin: 15% auto;
+  }
+  
+  .pop-outer3{
+    background-color:rgba(100, 100, 100, 0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    
+  }
+
+ .pop-inner3{
+    background-color: #787276;
+    width: 580px;
+    height: 380px;
+    padding: 25px;
+    margin: 15% auto;
+  }
+
+  #close{
+    color: #F79C0E;
+    background-color:transparent;
+    width: 3vw;
+    height: 3vw;
+    margin-left: 33vw;
+    margin-top: -10vw;
+  }
+
+.but a{
+  
+  padding-right: 2vw;
+  font-size: 1vw;
+}
+
+  tr{
+     color: rgba(154, 150, 150, 0.8);
+
+
+   }
+  
+
+    input{
+              height: 2vw;
+              border-radius: 8px;
+              background-color: rgba(154, 150, 150, 0.8);
+            border: none;
+              width: 15vw;
+              color:black;
+            
+          }
+         h2{
+            margin-top: -3vw;
+             color: #F79C0E;
+           text-align: center;
+        }
+        h1{
+          color:  #F79C0E;
+          margin-top: 5vw;
+        }
+        #file{
+       background-color: transparent;
+        }
+        #submit{
+          width: 9vw;
+        }
+        input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: black;
+  padding-left: 0.2vw;
+}
+        .gender {
+          width: 5vw;
+        }
+        .pop-outer form{
+          margin-left: 8vw;
+        }
+         table{
+          color:black;
+        
+        }
+        th{
+          letter-spacing: 0.2vw;
+          padding-left: 3vw;
+          color: white;
+
+        }
+        .gender {
+            height: 2vw;
+            border-radius: 8px;
+            background-color: rgba(154, 150, 150, 0.8);
+          border: none;
+            width: 5vw;
+            color:black;
+        }
+        .try{
+          color: white;
+        }
+  .pop-outer1{
+    text-align: center;
+    
+  }
+  td{
+   padding-left: 3vw;
+    padding-bottom: 0.2vw;
+    border-top: 0.1px solid white;
+     
+     border-top-width: 0.1px;
+  }
+  .log{
+    text-align: center;
+   font-size: 2vw;
+  }
+.log a{
+    color:  #F79C0E;
+  }
+    .pop-outer3 form{
+          margin-left: 8vw;
+        }
