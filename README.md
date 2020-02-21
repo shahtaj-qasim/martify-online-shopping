@@ -21,3 +21,13 @@ Features:
   10. Sign Up confirmation Email: Both customer and retailer will receive an email of confirmation when they register.
   11. Cart: Customer will be able to manage his/her cart.
 
+Screenshots:
+![ss](resources/Picture1.png)
+
+![ss](resources/Picture3.png)
+
+![ss](resources/Picture5.png)
+
+![ss](resources/Picture6.jpg)
+
+![ss](resources/Picture7.jpg)
